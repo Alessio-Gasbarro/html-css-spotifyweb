@@ -3,19 +3,27 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato';
+    color: white;
 }
 
 header{
     position: sticky;
     height: 75px;
-    background-color: rgba(0,0,0,0,0.6);
+    background-color: rgba(8,11,18,255,0.6);
     top: 0;
 }
 
 main{
     height: calc(100vh - 100px);
+    width: 100%;
     background-color: #141922;
     display: flex;
+    border-color: 3px solid gold;
+}
+
+.main-box{
+    position: sticky;
+    right: 0;
 }
 
 footer{
@@ -23,8 +31,26 @@ footer{
     background-color: #282828;
 }
 
-.sidebar{
+.sidebar-left{
     height: 100%;
-    width: 150px;
-    background-color: beige;
+    width: 15%;
+    background-color: #000000;
+    position: sticky;
+    left: 0;    
+}
+
+.main-icons{
+    flex-direction: column;
+}
+
+.h-10{
+    height: 10%;
+}
+
+.h-20{
+    height: 20%;
+}
+
+.h-30{
+    height: 30%;
 }
