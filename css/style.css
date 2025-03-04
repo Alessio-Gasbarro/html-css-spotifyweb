@@ -8,9 +8,8 @@
 
 header{
     position: sticky;
-    height: 75px;
+    height: 125px;
     background-color: rgba(8,11,18,255,0.6);
-    top: 0;
 }
 
 main{
@@ -22,6 +21,7 @@ main{
 }
 
 .main-box{
+    margin: 0 auto;
     position: sticky;
     right: 0;
 }
@@ -115,6 +115,20 @@ footer{
 .sb-footer{
     position: sticky;
     bottom: 0;
+}
+
+.upgrade{
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    align-items: center;
+}
+
+.upgrade-button{
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 20px;
 }
 
 .h-10{
