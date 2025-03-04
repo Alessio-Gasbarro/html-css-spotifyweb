@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato';
 }
 
 header{
@@ -20,4 +21,10 @@ main{
 footer{
     height: 150px;
     background-color: #282828;
+}
+
+.sidebar{
+    height: 100%;
+    width: 150px;
+    background-color: beige;
 }
