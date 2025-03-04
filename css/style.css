@@ -37,7 +37,6 @@ footer{
     background-color: #000000;
     position: sticky;
     left: 0;
-    margin: 0 auto;
 }
 
 .main-right{
@@ -129,6 +128,7 @@ footer{
     padding: 10px 30px;
     border: 2px solid white;
     border-radius: 20px;
+    margin-right: 20px;
 }
 
 .h-10{
