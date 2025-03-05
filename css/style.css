@@ -133,7 +133,7 @@ footer{
 .discovery{
     height: 40px;
     display: flex;
-    align-items: center;
+    padding-top: 20px;
     justify-content: center;
 }
 
@@ -143,6 +143,10 @@ footer{
     font-size: 20px;
     padding: 12px;
     color: #A3A3A3;
+}
+
+.v-scroll{
+    overflow-y: auto;
 }
 
 .h-10{
@@ -155,4 +159,44 @@ footer{
 
 .h-30{
     height: 30%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box-section{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 450px;
+    margin-top: 15px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+
+.intext1, .intext2{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.recently{
+    padding-top: 10px;
+}
+
+.intext1{
+
 }
