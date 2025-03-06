@@ -397,3 +397,16 @@ h2{
     position: relative;
 }
 
+/*--ANIMAZIONI--*/
+.album-hover:hover, .artist-hover:hover{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.playing-info .song-name:hover, .playing-save div:hover{
+    color: white;
+}
+
+
+
+

@@ -39,7 +39,7 @@
     #logo{
         display: none;
     }
-    
+
     #small-logo{
         display: block;
     }
@@ -78,6 +78,3 @@
         width: calc(100% - 200px);
     }
 }
-
-
-/*XS-BONUS*/
