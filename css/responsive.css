@@ -10,6 +10,28 @@
 }
 
 /*MD*/
+@media screen and (max-width: 990px){
+    .card{
+        width: 48%;
+    }
+    .playing-save{
+        flex-direction: column;
+    }
+
+    /* bonus 1 */
+    .footer-side{
+        width: 150px;
+    }
+    .footer-player{
+        width: calc(100% - 300px);
+    }
+    .list, .output{
+        display: none;
+    }
+    .volume-bar{
+        width: 70%;
+    }
+}
 
 
 /*S*/
