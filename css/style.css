@@ -407,6 +407,14 @@ h2{
     color: white;
 }
 
+.playing-info .song-name:hover{
+    text-decoration: underline;
+}
+
+.play:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
 
 
 
