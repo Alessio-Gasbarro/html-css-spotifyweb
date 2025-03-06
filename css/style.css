@@ -416,5 +416,13 @@ h2{
     transition: 0.3s;
 }
 
+.progress-bar:hover .white-dot{
+    display: block;
+}
+
+.volume-bar:hover .active-bar{
+    background-color: #ADFF2F;
+}
+
 
 
