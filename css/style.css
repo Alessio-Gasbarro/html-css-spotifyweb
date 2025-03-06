@@ -424,5 +424,14 @@ h2{
     background-color: #ADFF2F;
 }
 
+.volume-bar:hover .white-dot{
+    display: block;
+}
+
+.menu li:hover{
+    color: white;
+}
+
+
 
 
