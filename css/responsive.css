@@ -35,6 +35,49 @@
 
 
 /*S*/
+@media screen and (max-width: 768px){
+    #logo{
+        display: none;
+    }
+    
+    #small-logo{
+        display: block;
+    }
+
+    .hide-mobile, #main-sidelist .hide-mobile{
+        display: none;
+    }
+
+    #bottom-sidebar hr{
+        display: none;
+    }
+
+    .download-icon{
+        margin-left: 2px;
+        margin-right: 0;
+    }
+
+    .sidebar{
+        width: 70px;
+    }
+
+    .content{
+        width: calc(100% - 70px);
+    }
+
+    /* Bonus 2 */
+    .footer-volume-control{
+        display: none;
+    }
+
+    .footer-side{
+        width: 200px;
+    }
+
+    .footer-player{
+        width: calc(100% - 200px);
+    }
+}
 
 
 /*XS-BONUS*/
